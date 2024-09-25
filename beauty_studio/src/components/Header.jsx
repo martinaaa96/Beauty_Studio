@@ -1,22 +1,87 @@
+import { Link } from "react-router-dom";
+import { RiMenu3Fill } from "react-icons/ri";
+import { HiXMark } from "react-icons/hi2";
+import { useState } from "react";
 
+export default function Header() {
+  const [open, setOpen] = useState(false);
 
-export default function Header(){
-
-
-    return (
+  const handleNav = () => {
+    setOpen(!open);
+  };
+  return (
     <>
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
-<div className="m-7 md:my:0 md:ml-8 cursor: pointer">
-<img src="./logo.png" alt="logo" 
-className=""
-style={{ width: "150px" }}
-/>
+      <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
+        <div>
+          <Link to="/" className="my-7 md:my-0 md:ml-8 cursor: pointer">
+            <img
+              src="/logo.png"
+              alt="logo"
+              className="hover:scale-110 duration-500"
+              style={{ width: "100px" }}
+            />
+          </Link>
+        </div>
+        <ul className=" hidden md:flex">
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/" className="my-7 md:my-0 md:ml-8">
+              Home
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/about" className="my-7 md:my-0 md:ml-8">
+              About
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              Menu
+            </Link>
+          </li>
+        </ul>
 
-</div>
-
-
-    </div>
-    
+        <div onClick={handleNav} className="md:hidden z-10">
+          {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
+        </div>
+        <div
+          onClick={handleNav}
+          className={
+            open
+              ? "absolute left-0 top-0 w-full bg-pink-100/90 px-4 py-7 flex flex-col"
+              : "absolute left-[-100%]"
+          }
+        >
+          <ul>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link
+                to="/"
+                className="my-7 md:my-0 md:ml-8 "
+                onClick={handleNav}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link
+                to="/about"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                About
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                Menu
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </>
-    )
+  );
 }
