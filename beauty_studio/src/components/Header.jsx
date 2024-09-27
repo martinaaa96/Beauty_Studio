@@ -11,31 +11,53 @@ export default function Header() {
   };
   return (
     <>
-      <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
+      <div className="flex w-full justify-between items-center h-20 px-4 fixed top-0 left-0 z-10 bg-white shadow-md font-serif">
+        <ul className=" hidden md:flex">
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/" className="my-7 md:my-0 md:ml-8">
+              Home
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/about" className="my-7 md:my-0 md:ml-8">
+              About
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              Gallery
+            </Link>
+          </li>
+        </ul>
         <div>
           <Link to="/" className="my-7 md:my-0 md:ml-8 cursor: pointer">
             <img
               src="/logo.png"
               alt="logo"
               className="hover:scale-110 duration-500"
-              style={{ width: "100px" }}
+              style={{ width: "150px" }}
             />
           </Link>
         </div>
-        <ul className=" hidden md:flex">
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
-            <Link to="/" className="my-7 md:my-0 md:ml-8">
-              Home
-            </Link>
-          </li>
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
-            <Link to="/about" className="my-7 md:my-0 md:ml-8">
-              About
-            </Link>
-          </li>
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
+        <ul className="hidden md:flex">
+          <li className="text-gray-800 hover:text-red-400 duration-500">
             <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
-              Menu
+              Booking
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              Contacts
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              Login
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              Register
             </Link>
           </li>
         </ul>
@@ -52,7 +74,7 @@ export default function Header() {
           }
         >
           <ul>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/"
                 className="my-7 md:my-0 md:ml-8 "
@@ -61,7 +83,7 @@ export default function Header() {
                 Home
               </Link>
             </li>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/about"
                 className="my-7 md:my-0 md:ml-8"
@@ -70,13 +92,49 @@ export default function Header() {
                 About
               </Link>
             </li>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/catalog"
                 className="my-7 md:my-0 md:ml-8"
                 onClick={handleNav}
               >
-                Menu
+                Gallery
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                Booking
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                Contacts
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                Login
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
+                Register
               </Link>
             </li>
           </ul>
