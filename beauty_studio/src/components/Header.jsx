@@ -11,7 +11,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className="flex w-full justify-between items-center h-20 px-4 fixed top-0 left-0 z-10 bg-white shadow-md font-serif">
+      <div className="flex w-full justify-between items-center  h-20 px-4  top-0 left-0 z-10 bg-white shadow-md font-serif">
         <ul className=" hidden md:flex">
           <li className="text-gray-800 hover:text-red-400 duration-500">
             <Link to="/" className="my-7 md:my-0 md:ml-8">
