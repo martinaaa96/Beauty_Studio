@@ -11,9 +11,10 @@ export default function Footer() {
         </div>
         <div className="flex mt-8 flex-col md:flex-row md:justify-between">
           <p className="w-full md:w-2/3 text-gray-400 font-serif">
-            House of Beauty salon providing top-notch haircuts, hairstyling, and
-            extension services at affordable price. We are fully dedicated to
-            fulfilling your wishes and making your dreams come true.
+          House of Beauty salon providing top-notch haircuts, hairstyling, and extension services at affordable price.
+            We are fully dedicated to fulfilling your wishes and making your
+            dreams come true.
+
           </p>
           <div className="w-44 pt-6 md:pt-0">
             <a className="bg-red-300 hover:scale-110 duration-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center cursor-pointer ">
