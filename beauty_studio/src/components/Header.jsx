@@ -24,7 +24,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            <Link to="/gallery" className="my-7 md:my-0 md:ml-8">
               Gallery
             </Link>
           </li>
@@ -41,22 +41,22 @@ export default function Header() {
         </div>
         <ul className="hidden md:flex">
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            <Link to="/booking" className="my-7 md:my-0 md:ml-8">
               Booking
             </Link>
           </li>
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            <Link to="/contacts" className="my-7 md:my-0 md:ml-8">
               Contacts
             </Link>
           </li>
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            <Link to="/login" className="my-7 md:my-0 md:ml-8">
               Login
             </Link>
           </li>
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            <Link to="/register" className="my-7 md:my-0 md:ml-8">
               Register
             </Link>
           </li>
