@@ -1,12 +1,11 @@
 export default function Login() {
   return (
-    <div className=" bg-contain bg-center relative bg-[url('/image1.jpg')]">
+    <div className=" bg-contain bg-center min-h-screen relative bg-[url('/image1.jpg')]">
       <div className="absolute bg-gradient-to-b from-gray-200 to-orange-200 opacity-75 inset-0 z-0"></div>
-      <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
+      <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center relative z-10">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
           <div className="self-start hidden lg:flex flex-col  text-black">
-            <img src="" className="mb-3" />
-            <h1 className="mb-3 font-bold text-5xl">Hello, beauty ! </h1>
+            <h1 className="mb-10 font-bold text-5xl">Hello, beauty ! </h1>
             <p className="pr-3">
               If you have account please sing in and make your reservation
             </p>
