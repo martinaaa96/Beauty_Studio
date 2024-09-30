@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Error />
       <Login />
+      <Register />
       <Footer />
     </>
   );
