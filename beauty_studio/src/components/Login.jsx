@@ -1,10 +1,10 @@
 export default function Login() {
   return (
-    <div className="bg-no-repeat bg-cover bg-center relative bg-[url('/proba1.jpg')]">
-      <div className="absolute bg-gradient-to-b from-gray-200 to-red-200 opacity-75 inset-0 z-0"></div>
+    <div className=" bg-contain bg-center relative bg-[url('/image1.jpg')]">
+      <div className="absolute bg-gradient-to-b from-gray-200 to-orange-200 opacity-75 inset-0 z-0"></div>
       <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
-          <div className="self-start hidden lg:flex flex-col  text-white">
+          <div className="self-start hidden lg:flex flex-col  text-black">
             <img src="" className="mb-3" />
             <h1 className="mb-3 font-bold text-5xl">Hello, beauty ! </h1>
             <p className="pr-3">
@@ -42,7 +42,7 @@ export default function Login() {
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center bg-red-400  hover:bg-red-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+                  className="w-full flex justify-center bg-red-300  hover:bg-red-400 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
                 >
                   Sign in
                 </button>
