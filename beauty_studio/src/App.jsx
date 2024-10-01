@@ -5,12 +5,14 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import About from './components/About'
 
 function App() {
   return (
     <>
       <Header />
       <Home />
+      <About/>
       <Error />
       <Login />
       <Register />
