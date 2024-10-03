@@ -10,9 +10,9 @@ export default function Services() {
           Our Services
         </h2>
 
-        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-24 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           <div className="group relative border border-black rounded-lg p-4">
-            <div className=" w-full overflow-hidden rounded-lg lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <div className="w-full overflow-hidden rounded-lg lg:aspect-none group-hover:opacity-75 lg:h-80">
               <img
                 alt="image"
                 src={aboutpics}
@@ -20,19 +20,20 @@ export default function Services() {
               />
 
               <div className="mt-4 text-center">
-                <h3 className="text-sm text-gray-700"> 
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    Haircuts
+                <h3 className="text-md text-gray-900 font-midium">
+                  <span aria-hidden="true" className="absolute inset-0" />
+                  Haircuts
                 </h3>
-                
-                <p className="mt-1 text-sm text-gray-500">fyhfghf</p>
-             
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Whether you prefer classic cuts or modern trends, we ensure a
+                  fresh and stylish result every time!
+                </p>
               </div>
-              <p className="text-sm font-medium text-gray-900">33333</p>
             </div>
           </div>
           <div className="group relative border border-black rounded-lg p-4">
-            <div className=" w-full overflow-hidden rounded-md  lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <div className="w-full overflow-hidden rounded-md  lg:aspect-none group-hover:opacity-75 lg:h-80">
               <img
                 alt="image"
                 src={aboutpics}
@@ -40,15 +41,15 @@ export default function Services() {
               />
 
               <div className="mt-4 text-center">
-                <h3 className="text-sm text-gray-700">
-                
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    Styling
-               
+                <h3 className="text-md text-gray-900">
+                  <span aria-hidden="true" className="absolute inset-0" />
+                  Styling
                 </h3>
-                <p className="mt-1 text-sm text-gray-500">fyhfghf</p>
+                <p className="mt-1 text-sm text-gray-700">
+                  From casual waves to elegant updos, we bring your vision to
+                  life with expert care!
+                </p>
               </div>
-              <p className="text-sm font-medium text-gray-900">33333</p>
             </div>
           </div>
           <div className="group relative border border-black rounded-lg p-4">
@@ -60,19 +61,21 @@ export default function Services() {
               />
 
               <div className="mt-4 text-center">
-                <h3 className="text-sm text-gray-700">
+                <h3 className="text-md text-gray-900">
                   <a>
                     <span aria-hidden="true" className="absolute inset-0" />
                     Coloring
                   </a>
                 </h3>
-                <p className="mt-1 text-sm text-gray-500">fyhfghf</p>
+                <p className="mt-1 text-sm text-gray-700">
+                  Our coloring techniques enhance your natural beauty, creating
+                  bold or subtle changes that stand out!
+                </p>
               </div>
-              <p className="text-sm font-medium text-gray-900">33333</p>
             </div>
           </div>
           <div className="group relative border border-black rounded-lg p-4">
-            <div className=" w-full overflow-hidden rounded-md  lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <div className=" w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75 lg:h-80">
               <img
                 alt="image"
                 src={aboutpics}
@@ -80,15 +83,15 @@ export default function Services() {
               />
 
               <div className="mt-4 text-center">
-                <h3 className="text-sm text-gray-700">
-                 
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    Hair Extentions
-              
+                <h3 className="text-md text-gray-900">
+                  <span aria-hidden="true" className="absolute inset-0" />
+                  Hair Extentions
                 </h3>
-                <p className="mt-1 text-sm text-gray-500">fyhfghf</p>
+                <p className="mt-1 text-sm text-gray-700">
+                  Enjoy fuller, longer hair that blends seamlessly with your
+                  natural look, boosting your confidence instantly!
+                </p>
               </div>
-              <p className="text-sm font-medium text-gray-900">33333</p>
             </div>
           </div>
         </div>
