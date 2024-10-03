@@ -11,7 +11,7 @@ export default function Header() {
   };
   return (
     <>
-      <div className="flex w-full justify-between items-center  h-20 px-4  top-0 left-0 z-10 bg-white shadow-md font-serif">
+      <div className="flex w-full justify-between items-center h-20 px-4 top-0 left-0 z-10 bg-white shadow-md font-serif">
         <ul className=" hidden md:flex">
           <li className="text-gray-800 hover:text-red-400 duration-500">
             <Link to="/" className="my-7 md:my-0 md:ml-8">
@@ -26,6 +26,11 @@ export default function Header() {
           <li className="text-gray-800 hover:text-red-400 duration-500">
             <Link to="/gallery" className="my-7 md:my-0 md:ml-8">
               Gallery
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-red-400 duration-500">
+            <Link to="/contacts" className="my-7 md:my-0 md:ml-8">
+              Services
             </Link>
           </li>
         </ul>
@@ -102,12 +107,12 @@ export default function Header() {
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
-              <Link
-                to="/catalog"
+            <Link
+                to="/services"
                 className="my-7 md:my-0 md:ml-8"
                 onClick={handleNav}
               >
-                Booking
+                Services
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
@@ -116,9 +121,20 @@ export default function Header() {
                 className="my-7 md:my-0 md:ml-8"
                 onClick={handleNav}
               >
+                Booking
+              </Link>
+            </li>
+            
+            <li className="text-gray-800 border-b hover:text-red-400 duration-500">
+              <Link
+                to="/contacts"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
                 Contacts
               </Link>
             </li>
+           
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/catalog"
