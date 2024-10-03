@@ -1,6 +1,6 @@
 export default function Login() {
   return (
-    <div className=" bg-contain bg-center min-h-screen relative bg-[url('/image1.jpg')]">
+    <div className="bg-contain bg-center font-serif min-h-screen relative bg-[url('/image1.jpg')]">
       <div className="absolute bg-gradient-to-b from-gray-200 to-orange-200 opacity-75 inset-0 z-0"></div>
       <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center relative z-10">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
