@@ -107,7 +107,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
-            <Link
+              <Link
                 to="/services"
                 className="my-7 md:my-0 md:ml-8"
                 onClick={handleNav}
@@ -124,7 +124,7 @@ export default function Header() {
                 Booking
               </Link>
             </li>
-            
+
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/contacts"
@@ -134,7 +134,7 @@ export default function Header() {
                 Contacts
               </Link>
             </li>
-           
+
             <li className="text-gray-800 border-b hover:text-red-400 duration-500">
               <Link
                 to="/catalog"
