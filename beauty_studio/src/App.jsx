@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <Error />
       <Home />
       <Gallery />
       <Services />
