@@ -29,7 +29,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="text-gray-800 hover:text-red-400 duration-500">
-            <Link to="/contacts" className="my-7 md:my-0 md:ml-8">
+            <Link to="/services" className="my-7 md:my-0 md:ml-8">
               Services
             </Link>
           </li>

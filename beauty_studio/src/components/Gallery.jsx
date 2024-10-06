@@ -5,7 +5,7 @@ export default function Gallery() {
     <>
       <>
         <div className="flex flex-wrap justify-center mt-8 space-y-4 md:space-y-0 md:space-x-2 font-serif">
-          <button className=" text-black hover:text-red-400 focus:ring-opacity-40 py-2 px-4 rounded mx-2">
+          <button className=" text-black hover:underline hover:text-red-400 focus:ring-opacity-40 py-2 px-4 rounded mx-2">
             Haircuts
           </button>
           <button
