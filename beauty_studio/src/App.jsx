@@ -9,7 +9,8 @@ import Register from "./components/Register";
 import About from "./components/About";
 import Services from "./components/Services";
 import Gallery from "./components/Gallery";
-
+import Contacts from "./components/Contacts";
+import Booking from "./components/Booking";
 function App() {
   return (
     <>
@@ -21,7 +22,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/contacts" element={<Contacts />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/*" element={<Error />} />
