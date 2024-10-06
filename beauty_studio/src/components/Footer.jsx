@@ -1,7 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-white">
@@ -11,10 +11,9 @@ export default function Footer() {
         </div>
         <div className="flex mt-8 flex-col md:flex-row md:justify-between">
           <p className="w-full md:w-2/3 text-gray-400 font-serif">
-          House of Beauty salon providing top-notch haircuts, hairstyling, and extension services at affordable price.
-            We are fully dedicated to fulfilling your wishes and making your
-            dreams come true.
-
+            House of Beauty salon providing top-notch haircuts, hairstyling, and
+            extension services at affordable price. We are fully dedicated to
+            fulfilling your wishes and making your dreams come true.
           </p>
           <div className="w-44 pt-6 md:pt-0">
             <a className="bg-red-300 hover:scale-110 duration-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center cursor-pointer ">
@@ -23,26 +22,34 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col ">
-          <div className="flex mt-12 mb-6 flex-row justify-between cursor-pointer items-center ">
+          <div className="flex mt-12 mb-6 flex-row justify-between cursor-pointer items-center">
             <div className="">
-              <img
-                src="/logo.png"
-                alt="logo"
-                className="hover:scale-110 duration-500"
-                style={{ width: "150px", height: "150px" }}
-              />
+              <Link to="/">
+                <img
+                  src="/logo.png"
+                  alt="logo"
+                  className="hover:scale-110 duration-500"
+                  style={{ width: "150px", height: "150px" }}
+                />
+              </Link>
             </div>
-            <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-              About
-            </a>
-            <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-              Gallery
-            </a>
-            <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-              Booking
-            </a>
-
-            <div className="flex flex-row space-x-8 items-center justify-between">
+            <Link to="/about">
+              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
+                About
+              </a>
+            </Link>
+            <Link to="/gallery">
+              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
+                Gallery
+              </a>
+            </Link>
+            <Link to="/booking">
+              {" "}
+              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
+                Booking
+              </a>
+            </Link>
+            <div className="flex flex-row space-x-4 items-center justify-between">
               <a>
                 <FaFacebookF className="hover:scale-110 duration-500 cursor-pointer" />
               </a>
@@ -55,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
           <hr className="border-gray-600" />
-          <p className="w-full text-center my-12 text-gray-600">
+          <p className="w-full text-center my-2 text-gray-600">
             Copyright © 2024 House of Beauty - VM
           </p>
         </div>
