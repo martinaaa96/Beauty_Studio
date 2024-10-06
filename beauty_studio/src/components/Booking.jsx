@@ -1,1 +1,7 @@
-export default function Booking() {}
+export default function Booking() {
+
+    return (
+
+        
+    )
+}

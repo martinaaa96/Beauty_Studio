@@ -4,8 +4,7 @@ import aboutpics2 from "/aboutpics2.jpg";
 
 export default function About() {
   return (
-    <section className="bg-white dark:bg-gray-900 font-serif">
-      <div className="flex justify-between items-center text-right p-10"></div>
+    <div className="flex justify-between items-center text-right p-10 mt-2 bg-white dark:bg-gray-900 font-serif ">
       <div className="gap-32 items-center py-20 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-10 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -34,6 +33,6 @@ export default function About() {
           <img className="w-full rounded-lg" src={aboutpics} alt="content 1" />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
