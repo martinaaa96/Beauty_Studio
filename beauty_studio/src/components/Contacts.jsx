@@ -13,23 +13,23 @@ export default function Contacts() {
           </h2>
           <ul>
             <li className="text-black mb-4">Address</li>
-            <div className="flex items-center mb-4">
-              <FaLocationDot className=" text-black" />
+            <div className="flex items-center mb-8">
+              <FaLocationDot className=" text-red-300" />
               <span className="ml-2">Sofia,bul. Bulgaria 031 </span>
             </div>
             <li className="text-black mb-4">Phones</li>
-            <div className="flex items-center mb-4">
-              <FaPhoneSquare className=" text-black" />
+            <div className="flex items-center mb-8">
+              <FaPhoneSquare className=" text-red-300" />
               <span className="ml-2">+359 852 882 055 </span>
             </div>
             <li className="text-black mb-4">Email</li>
-            <div className="flex tems-center mb-4">
-              <MdEmail className=" text-black" />
+            <div className="flex tems-center mb-8">
+              <MdEmail className=" text-red-300" />
               <span className="ml-2"> houseOfbeauty@gm.com </span>
             </div>
             <li className="text-black mb-4">Opening Hours</li>
-            <div className="flex items-center mb-4">
-              <FaRegClock className=" text-black" />
+            <div className="flex items-center mb-8">
+              <FaRegClock className=" text-red-300" />
               <span className="ml-2">
                 <p>Mon-Fri: 09:00 - 20:00</p>
                 <p>Sat-Sun: 09:00 - 19:00</p>
