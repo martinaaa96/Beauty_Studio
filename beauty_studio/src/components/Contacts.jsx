@@ -5,10 +5,10 @@ import { FaRegClock } from "react-icons/fa6";
 import aboutpics from "/aboutpics.jpg";
 export default function Contacts() {
   return (
-    <div className="flex justify-between  p-10 mt-2 bg-white dark:bg-gray-900 font-serif ">
+    <div className="flex justify-between p-10 mt-2 bg-white text-black font-serif ">
       <div className="gap-48 py-20 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 className="mb-16 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white items-center">
+        <div className="font-light text-gray-700 sm:text-lg ">
+          <h2 className="mb-16 text-5xl tracking-tight font-extrabold text-gray-900 items-center">
             Contacts us
           </h2>
           <ul>
