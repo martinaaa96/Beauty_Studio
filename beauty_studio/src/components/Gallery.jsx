@@ -30,6 +30,12 @@ export default function Gallery() {
             className="bg-gradient-to-r text-black hover:text-red-400 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
           >
+            Manicure
+          </button>
+          <button
+            className="bg-gradient-to-r text-black hover:text-red-400 
+            focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+          >
             Pedicure
           </button>
           <button
