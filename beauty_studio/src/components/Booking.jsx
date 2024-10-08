@@ -14,14 +14,13 @@ export default function Booking() {
             </div>
 
             <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
-              <p className="text-sm leading-6 text-gray-900">fdsff</p>
+              <button className="text-black bg-red-300 hover:bg-amber-200 py-2 px-4 rounded-full">
+                Book
+              </button>
 
               <p className="mt-1 text-xs leading-5 text-gray-500">hfhfh</p>
 
-              <div className="mt-1 flex items-center gap-x-1.5">
-                
-             
-              </div>
+              <div className="mt-1 flex items-center gap-x-1.5"></div>
             </div>
           </li>
         </ul>
