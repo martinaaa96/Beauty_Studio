@@ -108,8 +108,8 @@ export default function Services() {
               </h3>
 
               <p className="mt-1 text-sm text-gray-700">
-                Whether you prefer classic cuts or modern trends, we ensure a
-                fresh and stylish result every time!
+                We offer a variety of colors and designs to give you the fresh,
+                stylish look you deserve!
               </p>
             </div>
           </div>
@@ -129,8 +129,8 @@ export default function Services() {
               </h3>
 
               <p className="mt-1 text-sm text-gray-700">
-                Whether you prefer classic cuts or modern trends, we ensure a
-                fresh and stylish result every time!
+                Relax and rejuvenate with our luxurious pedicure, designed to
+                pamper your feet and nails!
               </p>
             </div>
           </div>
@@ -150,8 +150,8 @@ export default function Services() {
               </h3>
 
               <p className="mt-1 text-sm text-gray-700">
-                Whether you prefer classic cuts or modern trends, we ensure a
-                fresh and stylish result every time!
+                This intensive facial leaves your skin feeling purified,
+                hydrated, and ready to face the day!
               </p>
             </div>
           </div>
