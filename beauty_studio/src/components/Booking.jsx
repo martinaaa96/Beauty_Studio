@@ -1,27 +1,32 @@
 export default function Booking() {
   return (
     <>
-      <div className=" flex items-center justify-center p-10 mt-2 bg-white dark:bg-gray-900 font-serif ">
-        <ul className="divide-y divide-gray-100">
-          <li className="flex justify-between gap-x-6 py-5">
+      <div className="flex flex-col sm:flex-row p-10 mt-4 bg-white dark:bg-gray-900 font-serif">
+<ul className="w-full">
+          <li className="flex flex-col sm:flex-row">
             <div className="min-w-0 flex-auto">
-              <p className="text-sm font-semibold leading-6 text-gray-900">
-                fgfdgdf
-              </p>
-              <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                gdgsgzsdzg
+              <h2 className="text-lg font-semibold leading-6 text-gray-900">
+                Pedicure
+              </h2>
+              <p className="mt-4 truncate text-md leading-5 text-gray-500">
+                Select your preferred time from our available slots and book
+                your appointment!
               </p>
             </div>
-
-            <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+            <div className="min-w-0 flex-auto">
+              <h2 className="text-lg font-semibold leading-6 text-gray-900">
+                1h 30
+              </h2>
+              <p className="mt-3 truncate text-md leading-5 text-gray-500">
+                $50
+              </p>
+            </div>
+            <div className=" shrink-0 sm:flex sm:flex-col sm:items-end mt-4 sm:mt-0">
               <button className="text-black bg-red-300 hover:bg-amber-200 py-2 px-4 rounded-full">
                 Book
               </button>
-
-              <p className="mt-1 text-xs leading-5 text-gray-500">hfhfh</p>
-
-              <div className="mt-1 flex items-center gap-x-1.5"></div>
             </div>
+            
           </li>
         </ul>
       </div>

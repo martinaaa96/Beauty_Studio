@@ -8,7 +8,6 @@ export default function Services() {
       <h2 className="text-4xl font-bold text-center tracking-tight text-gray-900">
         Our Services
       </h2>
-
       <div className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div className="group relative border border-black rounded-lg p-4">
           <div className="w-full overflow-hidden rounded-lg lg:aspect-none group-hover:opacity-75 lg:h-80">
