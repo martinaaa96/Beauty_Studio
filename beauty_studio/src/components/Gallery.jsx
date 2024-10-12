@@ -1,6 +1,10 @@
 import aboutpics from "/aboutpics.jpg";
 
+import { gallery } from "../utils/gallery";
+import { useState } from "react";
 export default function Gallery() {
+  const [pictures, setPictures] = useState(gallery);
+
   return (
     <>
       <>
@@ -52,78 +56,20 @@ export default function Gallery() {
           </button>
         </div>
         <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
-          <div
-            key=""
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
-          >
-            <a href="#">
-              <img
-                src={aboutpics}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-xl"
-              />
-            </a>
-          </div>
+          {pictures.map((picture) => (
+            <div
+              key={picture.id}
+              className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
+            >
+              <a href="#">
+                <img
+                  src={picture.image}
+                  alt="Product"
+                  className="h-80 w-72 object-cover rounded-xl"
+                />
+              </a>
+            </div>
+          ))}
         </section>
       </>
     </>

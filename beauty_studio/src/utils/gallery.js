@@ -1,14 +1,14 @@
-export const pictures = [
+export const gallery = [
     {
         id: 1,
         category: 'Haircuts',
-        image: '/blueberry.jpg',
+        image: '/haircut.jpg',
 
     },
     {
         id: 2,
         category: 'Styling',
-        image: '/strawberry.jpg',
+        image: '/styling.jpg',
 
 
 
@@ -16,7 +16,7 @@ export const pictures = [
     {
         id: 3,
         category: 'Coloring',
-        image: '/watermelon.jpg',
+        image: '/cloring.jpg',
 
 
     },
