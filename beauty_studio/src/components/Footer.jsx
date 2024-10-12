@@ -37,20 +37,18 @@ export default function Footer() {
               to="/about"
               className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
             >
-              About{" "}
+              About
             </Link>
             <Link
               to="/gallery"
               className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
             >
-              Gallery{" "}
+              Gallery
             </Link>
             <Link
               to="/booking"
               className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
-            >
-              Booking
-            </Link>
+            >Booking </Link>
             <div className="flex flex-row space-x-4 items-center justify-between">
               <a>
                 <FaFacebookF className="hover:scale-110 duration-500 cursor-pointer" />
