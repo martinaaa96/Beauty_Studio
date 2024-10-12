@@ -33,21 +33,23 @@ export default function Footer() {
                 />
               </Link>
             </div>
-            <Link to="/about">
-              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-                About
-              </a>
+            <Link
+              to="/about"
+              className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
+            >
+              About{" "}
             </Link>
-            <Link to="/gallery">
-              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-                Gallery
-              </a>
+            <Link
+              to="/gallery"
+              className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
+            >
+              Gallery{" "}
             </Link>
-            <Link to="/booking">
-              {" "}
-              <a className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 ">
-                Booking
-              </a>
+            <Link
+              to="/booking"
+              className="hidden md:block cursor-pointer text-gray-600 font-serif hover:text-red-400 duration-500 "
+            >
+              Booking
             </Link>
             <div className="flex flex-row space-x-4 items-center justify-between">
               <a>

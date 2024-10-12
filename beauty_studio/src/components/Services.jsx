@@ -1,6 +1,8 @@
 import aboutpics from "/aboutpics.jpg";
 //import aboutpics1 from "/aboutpics1.jpg";
 //import aboutpics2 from "/aboutpics2.jpg";
+import { service } from "../utils/service";
+import { useState } from "react";
 
 export default function Services() {
   return (
