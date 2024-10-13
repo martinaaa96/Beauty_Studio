@@ -47,4 +47,11 @@ export const gallery = [
         image: '/cleasing.jpg',
 
     }
+    ,
+    {
+        id: 8,
+        category: 'Deep Cleasing',
+        image: '/cleasing.jpg',
+
+    }
 ]
