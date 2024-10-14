@@ -23,7 +23,7 @@ export const gallery = [
     {
         id: 4,
         category: 'Hair Extentions',
-        image: '/.jpg',
+        image: '/hair2.jpg',
 
 
     },
@@ -44,14 +44,9 @@ export const gallery = [
     {
         id: 7,
         category: 'Deep Cleasing',
-        image: '/cleasing.jpg',
+        image: '/cleasing2.jpg',
 
     }
     ,
-    {
-        id: 8,
-        category: 'Deep Cleasing',
-        image: '/cleasing.jpg',
 
-    }
 ]

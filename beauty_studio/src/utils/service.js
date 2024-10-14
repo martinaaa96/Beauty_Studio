@@ -27,7 +27,7 @@ export const service = [
         id: 4,
         name: 'Hair Extentions',
         description: ' Enjoy fuller, longer hair that blends seamlessly with your natural look, boosting your confidence instantly!',
-        image: '/lemonade.jpg',
+        image: '/hair.jpg',
 
 
     },
@@ -51,7 +51,7 @@ export const service = [
         id: 7,
         name: 'Deep Cleasing',
         description: 'This intensive facial leaves your skin feeling purified, hydrated, and ready to face the day!',
-        image: '/cleasing2.jpg',
+        image: '/cleasing.jpg',
 
     }
 ]
