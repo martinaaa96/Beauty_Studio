@@ -38,7 +38,7 @@ export default function Contacts() {
           </ul>
         </div>
         <div className="grid grid-cols-1 gap-4 mt-8">
-          <img className="w-full rounded-lg" src={aboutpics} alt="content 1" />
+          <img className="w-full rounded-xl" src={aboutpics} alt="content 1" />
         </div>
       </div>
     </div>
