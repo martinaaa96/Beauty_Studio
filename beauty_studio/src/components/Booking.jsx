@@ -13,7 +13,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -28,7 +28,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -43,7 +43,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -58,7 +58,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -73,7 +73,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -88,7 +88,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
@@ -103,7 +103,7 @@ export default function Booking() {
               <td className="py-6 px-4">
                 <a
                   href="#"
-                  className="text-black bg-red-300 hover:bg-amber-200 py-2 px-6 rounded-xl"
+                  className="text-black bg-rose-200 hover:bg-rose-400 py-2 px-6 rounded-xl"
                 >
                   Book
                 </a>
