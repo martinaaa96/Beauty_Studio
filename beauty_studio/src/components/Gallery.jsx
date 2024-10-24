@@ -1,4 +1,4 @@
-import aboutpics from "/aboutpics.jpg";
+//import aboutpics from "/aboutpics.jpg";
 
 import { gallery } from "../utils/gallery";
 import { useState } from "react";
