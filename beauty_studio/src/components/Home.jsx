@@ -24,7 +24,6 @@ export default function Home() {
 
   return (
     <div className="relative overflow-hidden w-full h-screen">
-      {/* Карусел контейнер */}
       <motion.div
         className="flex"
         initial={{ x: 0 }}
