@@ -16,11 +16,10 @@ export default function Home() {
     );
   };
 
-  // Автоматично сменяне на снимките
   useEffect(() => {
-    const interval = setInterval(handleNext, 3000); // смяна на всеки 3 секунди
+    const interval = setInterval(handleNext, 5000);
 
-    return () => clearInterval(interval); // почистване при демонтаж
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -43,7 +42,6 @@ export default function Home() {
         ))}
       </motion.div>
 
-      {/* Бутони за навигация */}
       <div className="absolute inset-0 flex justify-between items-center px-4">
         <button
           onClick={handlePrev}
