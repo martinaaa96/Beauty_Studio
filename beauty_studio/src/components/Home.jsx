@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
-const images = ["/proba.jpg", "/proba4.jpg"];
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+const images = ["/home.jpg", "/home1.jpg", "/home2.jpg"];
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,13 +47,13 @@ export default function Home() {
           onClick={handlePrev}
           className="bg-gray-700 text-white rounded-full p-2 opacity-75 hover:opacity-100"
         >
-          {"<"}
+          <FaArrowLeft />
         </button>
         <button
           onClick={handleNext}
           className="bg-gray-700 text-white rounded-full p-2 opacity-75 hover:opacity-100"
         >
-          {">"}
+          <FaArrowRight />
         </button>
       </div>
     </div>
