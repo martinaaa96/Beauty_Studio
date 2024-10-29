@@ -5,9 +5,12 @@ export default function Login() {
       <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center relative z-10">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
           <div className="self-start hidden lg:flex flex-col  text-black">
-            <h1 className="mb-10 font-bold text-5xl">Hello, beauty ! </h1>
+            <h1 className="mb-10 font-bold text-5xl">
+              Welcome back, beautiful!
+            </h1>
             <p className="pr-3">
-              If you have account please sing in and make your reservation
+              Already have an account? Log in here to book your next reservation
+              with ease.
             </p>
           </div>
         </div>
@@ -23,8 +26,10 @@ export default function Login() {
                   Email
                 </label>
                 <input
+                  type="text"
+                  id="email"
+                  name="email"
                   className=" w-full text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
-                  type=""
                   placeholder="mail@gmail.com"
                 />
               </div>
@@ -33,8 +38,10 @@ export default function Login() {
                   Password
                 </label>
                 <input
+                  type="password"
+                  id="password"
+                  name="password"
                   className="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
-                  type=""
                   placeholder="Enter your password"
                 />
               </div>
