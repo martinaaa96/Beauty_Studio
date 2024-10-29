@@ -5,7 +5,7 @@ export default function Login() {
       <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center relative z-10">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
           <div className="self-start hidden lg:flex flex-col  text-black">
-            <h1 className="mb-10 font-bold text-5xl">
+            <h1 className="mb-3 font-bold text-5xl">
               Welcome back, beautiful!
             </h1>
             <p className="pr-3">
@@ -45,6 +45,7 @@ export default function Login() {
                   placeholder="Enter your password"
                 />
               </div>
+   
               <div>
                 <button
                   type="submit"

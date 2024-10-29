@@ -48,11 +48,11 @@ export default function Register() {
                   Repeat Password
                 </label>
                 <input
-                  type="repeat-password"
+                  type="password"
                   id="repeat-password"
                   name="repeat-password"
                   className="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
-                  placeholder="Enter your password again"
+                  placeholder="Repeat password"
                 />
               </div>
               <div>
