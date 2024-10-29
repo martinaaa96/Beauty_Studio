@@ -5,16 +5,17 @@ export default function Register() {
       <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center relative z-10">
         <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
           <div className="self-start hidden lg:flex flex-col  text-black">
-            <h1 className="mb-3 font-bold text-5xl">Hello, beauty ! </h1>
-            <p className="pr-3">If you dont have account - Make it from here</p>
+            <h1 className="mb-3 font-bold text-5xl">Hello, beautiful!</h1>
+            <p className="pr-3">
+              Don’t have an account yet? Create one here and join us to enjoy a
+              seamless experience!
+            </p>
           </div>
         </div>
         <div className="flex justify-center self-center z-10">
           <div className="p-12 bg-white mx-auto rounded-2xl w-100 ">
             <div className="mb-4">
-              <h3 className="font-semibold text-2xl text-gray-800">
-                Register{" "}
-              </h3>
+              <h3 className="font-semibold text-2xl text-gray-800">Register</h3>
               <p className="text-gray-500">Please create your account.</p>
             </div>
             <div className="space-y-5">
@@ -23,8 +24,10 @@ export default function Register() {
                   Email
                 </label>
                 <input
+                  type="email"
+                  id="email"
+                  name="name"
                   className=" w-full text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
-                  type=""
                   placeholder="mail@gmail.com"
                 />
               </div>
@@ -33,9 +36,23 @@ export default function Register() {
                   Password
                 </label>
                 <input
+                  type="password"
+                  id="password"
+                  name="password"
                   className="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
-                  type=""
                   placeholder="Enter your password"
+                />
+              </div>
+              <div className="space-y-2">
+                <label className="mb-5 text-sm font-medium text-gray-700 tracking-wide">
+                  Repeat Password
+                </label>
+                <input
+                  type="repeat-password"
+                  id="repeat-password"
+                  name="repeat-password"
+                  className="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-red-400"
+                  placeholder="Enter your password again"
                 />
               </div>
               <div>
