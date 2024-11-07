@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-const images = ["/home.jpg", "/home1.jpg", "/home2.jpg"];
+const images = ["/home1.jpg", "/home2.jpg", "home3.jpg"];
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
